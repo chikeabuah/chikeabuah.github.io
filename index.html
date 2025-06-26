@@ -1,10 +1,380 @@
 
-<html>
+<html prefix="og: https://ogp.me/ns#">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-<meta http-equiv="refresh" content="0; url=https://programming-dp.com/" />
+
+  <!-- Font Awesome CSS -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Source+Sans+Pro:wght@200&family=Source+Serif+Pro:wght@200&display=swap" rel="stylesheet">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<title>Chiké Abuah</title>
+<meta name="description" content="Chiké Abuah is a computer science researcher, specializing in cybersecurity and programming languages.
+He received his PhD in computer science at the University of Vermont in 2021.
+Currently he researches and implements programming languages and analysis tools which help
+programmers build reliable software.
+Chiké received his BA from Grinnell College, and MS from the University of Massachusetts."/>
+
+
+<meta property="og:title" content="Chiké Abuah, Ph.D." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://chikeabuah.github.io/chike-abuah2.jpg" />
+<meta property="og:image:secure_url" content="https://chikeabuah.github.io/chike-abuah2.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="300" />
+<meta property="og:image:height" content="450" />
+<meta property="og:image:alt" content="Chiké Abuah wearing a Grinnell College scarf" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@chikeabuah" />
+<meta name="twitter:title" content="Chiké Abuah, Ph.D." />
+<meta name="twitter:description" content="Personal Website" />
+<meta name="twitter:image" content="https://chikeabuah.github.io/chike-abuah3.jpg" />
+
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "Person",
+	"familyName": "Abuah",
+	"givenName": "Chike",
+	"worksFor": "https://chikeabuah.github.io/",
+	"jobTitle": "Computer Scientist",
+	"alumniOf": "https://www.uvm.edu/",
+	"image": "https://chikeabuah.github.io/chike-abuah2.jpg",
+	"gender": "http://schema.org/Male",
+	"sameAs": ["https://twitter.com/chikeabuah","https://www.linkedin.com/in/chikeabuah/","https://www.wikidata.org/wiki/Q106801589","https://scholar.google.com/citations?user=u1OCRUsAAAAJ","https://chikeabuah.github.io/"]
+}
+</script>
+
+<meta name="thumbnail" content="https://chikeabuah.github.io/chike-abuah3.jpg" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8XYCNWR5ZK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8XYCNWR5ZK');
+</script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<style type="text/css">
+body {
+  font-family: 'Source Serif Pro', serif;
+	padding:0ex 0ex 0ex 0ex ;
+	margin: 0ex 0ex 0ex 0ex ;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f6f6f6;
+    color:  #2e3440;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2e3440;
+    color: #f6f6f6;
+  }
+  a {
+    color: lavender;
+  }
+}
+
+hr {
+  border: 0;
+  width: 90%;
+  height: 2px;
+  color: #e3e7ef;
+  background-color: #e3e7ef;
+  margin:3ex 2ex 0ex 0ex ;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Source Serif Pro', serif;
+  padding: 0.5rem
+}
+
+body :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+big {
+  font-size:1.3em;
+}
+spam {
+  color:#ffffff;
+}
+
+a {
+  padding: .2em;
+}
+
+html { font-size: 22px !important }
+
+@media (pointer: coarse) {
+   a {
+    padding: .4em;
+  }
+}
+img {
+max-width: 300px;
+}
+a:link {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration:none;
+}
+p.small {
+    font-variant: small-caps;
+}
+</style>
+
+
+<style type=text/css>
+.fa {
+  margin-right: 10px;
+}
+
+// Fixing width of first
+            // column of each row
+            td:nth-child(1) {
+                width: 40%;
+            }
+
+            // Fixing width of second
+            // column of each row
+            td:nth-child(2) {
+                width: 60%;
+		}
+</style>
+
 </head>
-<body> 
-<p><a href="https://programming-dp.com/">Redirect</a></p>
-</body>
-</html>
+
+<body>
+    <center>
+    <table width=1000 cellpadding=15>
+        <tr>
+          <td valign=top>
+            <h1>Chiké Abuah, PhD</h1>
+
+<br>
+<table width=50% table-layout=fixed style="margin-top: 1em;">
+      <tbody>
+      <tr>
+        <td><i class="fa fa-envelope"></i>  </td> <td width="90%" >  <a href="">abuahchu@gmail.com</a></td>
+      </tr>
+			<tr>
+				<td> <i class="fab fa-google"></i>  </td> <td width="90%" >  <a href="https://scholar.google.com/citations?user=u1OCRUsAAAAJ">google scholar</a></td>
+			</tr>
+      <tr>
+        <td> <i class="fab fa-github"></i>  </td> <td width="90%" >  <a href="https://github.com/chikeabuah">github</a></td>
+      </tr>
+     <tr>
+        <td> <i class="fab fa-linkedin"></i>  </td> <td width="90%" >  <a href="https://www.linkedin.com/in/chikeabuah/">linkedin</a></td>
+      </tr>
+			<tr>
+         <td> <i class="fa fa-comment-dots far"></i>  </td> <td width="90%" >  <a href="https://www.name-coach.com/chike-abuah">name pronunciation</a></td>
+       </tr>
+
+
+      </tbody>
+    </table>
+	</h4>
+
+
+<br>
+<br>
+
+<h2 style="margin-top: 0.2em;">Interests</h2>
+
+ <p>My interests include formal verification and cybersecurity.</p>
+
+<hr>
+
+<a name="publications"><h2>Peer-Reviewed Publications</h2></a>
+
+<div data-nosnippet>
+
+<ul>
+
+  <li><b>DDUO: General-Purpose Dynamic Analysis for Differential Privacy.</b><br>
+     Chiké T. Abuah, Alex Silence, David Darais, Joseph P. Near. <br>
+    In <i>Computer Security Foundations (CSF)</i>, 2021. (<a href="https://www.computer.org/csdl/proceedings-article/csf/2021/760700a531/1uvIdr2mji8">pdf</a>)<p>
+
+  <li><b>Duet: An Expressive Higher-Order Language and Linear Type System for Statically Enforcing Differential Privacy.</b><br>
+    <div data-nosnippet> Joseph P. Near, David Darais, Chiké T. Abuah, Tim Stevens, Pranav Gaddamadugu, Lun Wang, Neel Somani, Mu Zhang, Nikhil Sharma, Alex Shan, and Dawn Song. </div>
+    In <i>Object-oriented Programming, Systems, Languages, and Applications (OOPSLA)</i>. 2019. (<a href="https://dl.acm.org/doi/abs/10.1145/3360598">pdf</a>)
+    <br>
+    <b><em>**ACM SIGPLAN Distinguished Paper Award**</em></b><br>
+    <a href="https://github.com/uvm-plaid/duet">Download implementation here</a><p>
+
+  <li><b>Solo: A Lightweight Static Analysis for Differential Privacy.</b><br>
+     Chiké T. Abuah, David Darais, Joseph P. Near. <br>
+    OOPSLA '22. (<a href="https://dl.acm.org/doi/abs/10.1145/3563313">pdf</a>)<p>
+
+
+  <li><b>Contextual Linear Types for Differential Privacy.</b><br>
+     Matias Toro, David Darais, Chiké T. Abuah, Joseph P. Near, Federico Olmedo, Eric Tanter. <br>
+    ACM Transactions on Programming Languages and Systems (TOPLAS). (<a href="https://dl.acm.org/doi/full/10.1145/3589207">pdf</a>)<p>
+
+</ul>
+
+</div>
+
+<hr>
+
+
+<a name="other"><h2>Other Publications</h2></a>
+
+<ul>
+
+	<li> I am a co-author of the <a href="https://executablebooks.org/en/latest/">executable</a> book: <a href="https://uvm-plaid.github.io/programming-dp/">Programming Differential Privacy</a>
+
+  <li> I have <a href="https://www.nist.gov/blogs/cybersecurity-insights/automatic-proofs-differential-privacy">contributed</a>  to <a href="https://www.nist.gov/blogs/cybersecurity-insights">CYBERSECURITY INSIGHTS: a NIST blog</a>
+
+<br>
+
+</ul>
+
+<hr>
+
+
+<a name="talks"><h2>Talks</h2></a>
+
+
+<div style="margin-left:10%">
+
+<div> DDUO @ CSF 2021
+</div>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8cye2xdUCVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+</div>
+
+<br>
+<hr>
+<br>
+
+<div style="margin-left:10%">
+
+<div> SOLO @ FCS 2021
+</div>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zYsJOCOyERc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+</div>
+
+<br>
+<hr>
+<br>
+
+
+<div style="margin-left:10%">
+
+<div> SOLO @ OOPSLA 2022 (David Darais)
+</div>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JG1NTaUViXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+
+</div>
+
+</div>
+
+
+<hr>
+
+
+<a name="teaching"><h2>Teaching</h2></a>
+
+<ul>
+
+  <li> I was the <b>Lead Instructor</b> for <a href="https://www.uml.edu/catalog/courses/COMP/1020">Computing II (Data Structures)</a> UMass Lowell, Summer 2017.
+
+<br>
+
+</ul>
+
+<hr>
+
+<a name="opensource"><h2>Service</h2></a>
+
+<ul>
+
+	<li> I performed expert reviews for CSF (Computer Security Foundations) ’23.
+	<li> I performed expert reviews for ESOP (European Symposium On Programming) ’23.
+	<li> I served on the external review committee for OOPLSA ’22.
+	<li> I served as a PC member of the Workshop on Theory and Practice of Differential Privacy (TPDP) ’22.
+	<li> I served as a PC member of the Workshop on Foundations of Computer Security (FCS) ’22.
+	<li> I served on the Program Committee for <a href="https://owenarden.github.io/fcs2021/">FCS 2021</a>.
+  <li><a href="https://plfa.inf.ed.ac.uk/Acknowledgements/">Acknowledged</a> for contributing to the book: <b>Programming Language Foundations in Agda.</b>
+
+</ul>
+
+<br>
+<hr>
+<br>
+
+<h4>Bio</h4>
+<em>
+  Chiké Abuah is a computer scientist, specializing in data privacy, cybersecurity,
+	 and program analysis.
+  He received his PhD in computer science at the University of Vermont in 2021.
+  Currently he researches and implements program analysis tools which help
+  programmers build reliable software.
+  Chiké received his BA from Grinnell College, and MS from the University of Massachusetts.
+</em>
+
+<hr>
+
+<br>
+
+<br>
+
+<hr>
+
+<br>
+
+<br>
+
+<br>
+<br>
+	  </td>
+	  <td align=center valign=top>
+<br><br><br>
+
+<img width="300" height="450" src="chike-abuah.jpg" alt="Chiké Abuah" style="width:300px;height:450px;"  >
+
+<br>
+
+<p style="padding-top: 2.0em;">
+
+	  </td>
+	</tr>
+    </table>
+</center>
+  </body> </html>
